@@ -689,13 +689,13 @@ const projects = {
     title:'RemoteTal',
     desc:'Global talent marketplace connecting companies with verified remote professionals. Streamlined recruitment, simplified interviews, secure payments, and budget-friendly hiring.',
     url:'https://itechgemini.com/',
-    imgs:Array.from({length:2},(_,i)=>`scriptbae/${i+1}.png`)
+    imgs:Array.from({length:8},(_,i)=>`scriptbae/${i+1}.png`)
   },
   codeai:{
     title:'CodeAI',
     desc:'Virtual coding assistant that turns natural language into real code, identifies and fixes bugs, and provides a deep knowledge base with examples. Suits beginners and professional developers alike.',
     url:'https://itechgemini.com/',
-    imgs:Array.from({length:2},(_,i)=>`scriptbae/${i+1}.png`)
+    imgs:Array.from({length:8},(_,i)=>`scriptbae/${i+1}.png`)
   },
   pizzagpt:{
     title:'PizzaGPT',
@@ -707,7 +707,7 @@ const projects = {
     title:'Speech AI',
     desc:'Enhances communication and supports language learning with natural voice interaction. Ask anything, get speech guidance, search in any language, and chat with a friendly AI companion.',
     url:'https://itechgemini.com/',
-    imgs:Array.from({length:2},(_,i)=>`scriptbae/${i+1}.png`)
+    imgs:Array.from({length:8},(_,i)=>`scriptbae/${i+1}.png`)
   }
 };
 
