@@ -689,25 +689,25 @@ const projects = {
     title:'RemoteTal',
     desc:'Global talent marketplace connecting companies with verified remote professionals. Streamlined recruitment, simplified interviews, secure payments, and budget-friendly hiring.',
     url:'https://itechgemini.com/',
-    imgs:['remoteTal/1.png','remoteTal/2.png']
+    imgs:Array.from({length:2},(_,i)=>`scriptbae/${i+1}.png`)
   },
   codeai:{
     title:'CodeAI',
     desc:'Virtual coding assistant that turns natural language into real code, identifies and fixes bugs, and provides a deep knowledge base with examples. Suits beginners and professional developers alike.',
     url:'https://itechgemini.com/',
-    imgs:['codeAI/1.png','codeAI/2.png']
+    imgs:Array.from({length:2},(_,i)=>`scriptbae/${i+1}.png`)
   },
   pizzagpt:{
     title:'PizzaGPT',
     desc:'Multi-purpose AI chatbot delivering smart personalized recommendations — from travel advice to product suggestions. Real-time conversations tailored to your needs, available 24/7 for free.',
     url:'https://itechgemini.com/',
-    imgs:['pizzagpt/1.png','pizzagpt/2.png']
+    imgs:Array.from({length:2},(_,i)=>`scriptbae/${i+1}.png`)
   },
   speechai:{
     title:'Speech AI',
     desc:'Enhances communication and supports language learning with natural voice interaction. Ask anything, get speech guidance, search in any language, and chat with a friendly AI companion.',
     url:'https://itechgemini.com/',
-    imgs:['speechAI/1.png','speechAI/2.png']
+    imgs:Array.from({length:2},(_,i)=>`scriptbae/${i+1}.png`)
   }
 };
 
